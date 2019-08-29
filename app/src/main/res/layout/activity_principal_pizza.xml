@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.martin.proyectofinal.principalPizzaActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/tooblar_principal"
+        android:layout_width="0dp"
+        android:layout_height="56dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/whereTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="60dp"
+        android:text="@string/where"
+        android:textSize="40sp"
+        android:textColor="@color/colorText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+    <Button
+        android:id="@+id/repartoButton"
+        android:layout_width="245dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="60dp"
+        android:background="@color/colorAccent"
+        android:drawableLeft="@drawable/ic_action_motorcycle"
+        android:onClick="repartoButton"
+        android:paddingLeft="30dp"
+        android:text="REPARTO A DOMICILIO"
+        android:textColor="@android:color/background_light"
+        android:textSize="23sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/whereTextView" />
+
+    <Button
+        android:id="@+id/recogerButton"
+        android:layout_width="245dp"
+        android:layout_height="100dp"
+        android:background="@color/colorAccent"
+        android:drawableLeft="@drawable/ic_action_name_store"
+        android:onClick="recogerButton"
+        android:paddingLeft="30dp"
+        android:text="RECOGER EN TIENDA"
+        android:textColor="@android:color/background_light"
+        android:textSize="23sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/repartoButton"
+        app:layout_constraintVertical_bias="0.43" />
+
+</android.support.constraint.ConstraintLayout>

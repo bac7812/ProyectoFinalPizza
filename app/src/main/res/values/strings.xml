@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">TelePizza</string>
+    <string name="where">¿Dónde lo quieras?</string>
+    <string name="store">¿En qué tienda?</string>
+    <string name="following">SIGUIENTE</string>
+    <string name="choose">¿En qué dirección?</string>
+    <string name="address">Dirección</string>
+    <string name="city">Ciudad</string>
+    <string name="province">Provincia</string>
+    <string name="postalCode">Código postal</string>
+    <string name="size">ELEGIR TAMAÑO:</string>
+    <string name="dough">ELEGIR MASA:</string>
+    <string name="quantity">ELEGIR CANTIDAD:</string>
+    <string name="drink">ELEGIR BEBIDA:</string>
+    <string name="cash">Efectivo</string>
+    <string name="card">Tarjeta</string>
+    <string name="pay">PAGAR</string>
+    <string name="thankYou">¡Gracias por su pedido!</string>
+    <string name="returnHome">VOLVER AL INICIO</string>
+    <string name="confirmed">CONFIRMADO</string>
+    <string name="delete">BORRAR</string>
+</resources>
